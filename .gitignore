@@ -1,0 +1,16 @@
+[Pp]ackages/
+[Tt]ools/*
+[Oo]utput/
+.idea
+bin/
+cache/
+obj/
+nuget.exe
+*.zip
+/debug.log
+/*.packages.xml
+/*.wyam.hash
+/*.dll
+/.DS_Store
+.obsidian
+.DS_Store
