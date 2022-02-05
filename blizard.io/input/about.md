@@ -50,6 +50,8 @@ When not developing I like hiking, travelling, board games, snowboarding & photo
 ## Clients I have worked with
 
 <div id="client-list">
+    <div class="client"><a href="https://www.valtech.com/"><img src="images/site/valtech.png"/></a></div>
+    <div class="client"><a href="https://www.justeattakeaway.com"><img src="/images/site/JET.png"/></a></div>
     <div class="client"><a href="https://www.101ways.com/"><img src="images/site/101Ways.png"/></a></div>
     <div class="client"><a href="https://paypoint.com/"><img src="/images/site/paypoint.png"/></a></div>
     <div class="client"><a href="https://www.just-eat.co.uk"><img src="images/site/just-eat.png"/></a></div>
