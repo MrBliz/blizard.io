@@ -14,3 +14,6 @@ nuget.exe
 /.DS_Store
 .obsidian
 .DS_Store
+
+.fake
+.ionide

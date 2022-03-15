@@ -6,12 +6,12 @@ Title: Reading List
 
 #### Books
 ***Powers of Geography***, Tim Marshall\
-***Philosophy of Software Design***, John Ousterhout
+***Philosophy of Software Design***, John Ousterhout\
 ***Designing Data Intensive Applications***, Martin Kleppman
 
 
 #### Audiobooks
-***Men Who Hate Women***, Laura Bates
+
 
 ### Complete
 
@@ -21,7 +21,8 @@ Title: Reading List
 #### Audiobooks
 
 ***The Book You Wish Your Parents Had Read***, Phillipa Perry\
-***Atomic Habits***, James Clear
+***Atomic Habits***, James Clear\
+***Men Who Hate Women***, Laura Bates
 
 
 
