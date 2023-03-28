@@ -88,7 +88,7 @@ let filterRow (row :HtmlNode) =
 ```
 
 
-And then for each row in the table we'll need to extract the information and map it onto the result type. This is where we need to the `teamName` variable we declared earlier.
+And then for each row in the table we'll need to extract the information and map it onto the result type. This is where we use the `teamName` variable we declared earlier.
 
 ```
 
@@ -139,7 +139,7 @@ let extractResult(row : HtmlNode) =
 ```
 
 
-And lastly we need to put all those functions together. F# make it really easy to chain functions together using the forward pipe (`|>`) operator.
+And lastly we need to put all those functions together, querying for the Home and Away Scores from the top of the Script file. F# makes it really easy to chain functions together using the forward pipe (`|>`) operator.
 
 ```
     let results =
