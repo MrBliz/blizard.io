@@ -177,6 +177,4 @@ Instead, with just a couple of hours work, I found that F# is a great language f
 
 One other feature of the language is the type inference. You'll notice for the functions, there is no return type declared on the function body, the compiler just works it out. This can be also true for function parameters, but there may be cases where you want to supply the type, to aid the IDE to display the correct information when using intellisense.
 
-And lastly the fact that 
-
 You can find the full code for this post in [this gist]("https://gist.github.com/MrBliz/36bd1885e983236e5373743df57d8e99")

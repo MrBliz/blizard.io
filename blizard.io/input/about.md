@@ -57,14 +57,14 @@ When not developing I like hiking, traveling, board games, snowboarding & photog
     <div class="client"><a href="https://www.101ways.com/"><img src="images/site/101Ways.png"/></a></div>
     <div class="client"><a href="https://paypoint.com/"><img src="/images/site/paypoint.png"/></a></div>
     <div class="client"><a href="https://www.just-eat.co.uk"><img src="images/site/just-eat.png"/></a></div>
-    <div class="client"><a href="http://www.allenovery.com"><img src="images/site/allen-overy.jpg"/></a></div>
-    <div class="client"><a href="http://www.nfiniti.co"><img src="images/site/nfiniti.png"/></a></div>
+    <div class="client"><a href="https://www.allenovery.com"><img src="images/site/allen-overy.jpg"/></a></div>
+    <div class="client"><a href="https://www.nfiniti.co"><img src="images/site/nfiniti.png"/></a></div>
     <div class="client"><a href="https://www.clear.bank"><img src="images/site/clearbank.png"/></a></div>
     <div class="client"><a href="https://www.globecast.com/"><img src="images/site/globecast.png"/></a></div>
     <div class="client"><a href="https://hcml.co.uk"><img src="images/site/hcml.png"/></a></div>
     <div class="client"><a href="https://www.spafax.com"><img src="images/site/spafax.png"/></a></div>
     <div class="client"><a href="https://disney.co.uk"><img src="images/site/disney.png"/></a></div>
     <div class="client"><a href="https://www.itg.co.uk"><img src="images/site/itg.png"/></a></div>
-    <div class="client"><a href="http://www.btp.police.uk"><img src="images/site/btp.jpg"/></a></div>
+    <div class="client"><a href="https://www.btp.police.uk"><img src="images/site/btp.jpg"/></a></div>
 </div>
 

@@ -3,7 +3,7 @@ Published: 2023-01-03
 Tags: 
     - F#
     - .NET
-    - Packet
+    - Paket
     - SAFE Stack
 
 ---
