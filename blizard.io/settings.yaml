@@ -1,4 +1,4 @@
 SiteTitle: blizard.io - Liam Blizard's blog
 Image : /images/site/goatfell.jpg
-Host: "https://blizard.io"
+Host: "www.blizard.io"
 Copyright: => $"© Liam Blizard. 2018 - {DateTime.Now.Year}"
