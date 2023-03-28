@@ -13,11 +13,11 @@ A few months ago my team Sheffield Utd,  beat the the top team in the League 5-2
 
 But it is a task that could be automated by web scraping, providing there was a well formed set of results where the HTML was easy to parse. Looking around a few sites, the [11v11 results page]("https://www.11v11.com/teams/sheffield-united/tab/matches/") looked like a good option.
 
-At that point my only experience with F# was doing a few exercises on (Exercism)["https://exercism.org/tracks/fsharp"] around a year before. It's a language that I was keen on working with, so with a free evening I decided to throw it at this problem.
+At that point my only experience with F# was doing a few exercises on [Exercism]("https://exercism.org/tracks/fsharp") around a year before. It's a language that I was keen on working with, so with a free evening I decided to throw it at this problem.
 
 Let's look at the structure of the 11v11 results page
 
-![The 11 v 11 results page showing the structure](../images/blog/web-scraping-with-fsharp/11v11Results.png "The 11 v 11 results page showing the structure")
+<img src="../images/blog/web-scraping-with-fsharp/11v11Results.png" class="img-fluid" title="The 11 v 11 results page showing the structure" alt="The 11 v 11 results page showing the structure"/>
 
 There's a list of seasons on the left we can iterate through. Clicking on each link here opens the results for that season in the main view.
 
@@ -51,10 +51,10 @@ let homeOrAway = "H"
 
 If we open the browser developer tools and inspect the list we can see that the seasons are contained in a ul element with the id of seasons, and each list item contains a link to the season page. It's the links that we want.
 
+<img src="../images/blog/web-scraping-with-fsharp/seasonlinks.png" class="img-fluid" title="Dev Tools showing the Ul for the seasons" alt="Dev Tools showing the Ul for the seasons"/>
 
-![Dev Tools showing the Ul for the seasons](../images/blog/web-scraping-with-fsharp/seasonlinks.png "Dev Tools showing the Ul for the seasons")
 
-We can extract each season link using the `CssSelect` method with the appropriate Css Selector, then for each `a` element extract the value form the `href` attribute.
+We can extract each season link using the `CssSelect` method with the appropriate Css Selector, then for each `a` element extract the value from the `href` attribute.
 
 ```
 let seasonLinks : string list =
