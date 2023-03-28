@@ -17,7 +17,9 @@ At that point my only experience with F# was doing a few exercises on [Exercism]
 
 Let's look at the structure of the 11v11 results page
 
-<img src="../images/blog/web-scraping-with-fsharp/11v11Results.png" class="img-fluid" title="The 11 v 11 results page showing the structure" alt="The 11 v 11 results page showing the structure"/>
+<img src="../images/blog/web-scraping-with-fsharp/11v11Results.png" class="img-fluid" title="The 11 v 11 results page showing the structure" alt="The 11 v 11 results page showing the structure"/>  
+
+<br>
 
 There's a list of seasons on the left we can iterate through. Clicking on each link here opens the results for that season in the main view.
 
@@ -38,7 +40,8 @@ type Result = {
     AwayScore: int
     HomeOrAway : string
     Competition : string
-}
+}  
+
 ```
  Then we can load the initial page. The `teamName` variable is so that we can determine whether the team we are interested in is playing home or away, and will be used later in the script, as will the variables containing the home and away goals that we want to find.
 
@@ -51,8 +54,9 @@ let homeOrAway = "H"
 
 If we open the browser developer tools and inspect the list we can see that the seasons are contained in a ul element with the id of seasons, and each list item contains a link to the season page. It's the links that we want.
 
-<img src="../images/blog/web-scraping-with-fsharp/seasonlinks.png" class="img-fluid" title="Dev Tools showing the Ul for the seasons" alt="Dev Tools showing the Ul for the seasons"/>
+<img src="../images/blog/web-scraping-with-fsharp/seasonlinks.png" class="img-fluid" title="Dev Tools showing the Ul for the seasons" alt="Dev Tools showing the Ul for the seasons"/>  
 
+<br>
 
 We can extract each season link using the `CssSelect` method with the appropriate Css Selector, then for each `a` element extract the value from the `href` attribute.
 
@@ -167,7 +171,7 @@ And that's it! Running the entire script through F# Interactive yields the follo
 04/10/1897 : Sheffield United v Blackburn Rovers : 5:2 : League Division One
 ```
 
-If i'd searched for this manually, I would have had to go through 44 years of results to find the last time Sheffield Utd had beaten a team 5-2 at home. I would have got bored and given up at the 20th year.
+If i'd searched for this manually, I would have had to go through 44 years of results to find the last time Sheffield Utd had beaten a team 5-2 at home (prior to the result that prompted the question). I would have got bored and given up at the 20th year.
 
 Instead, with just a couple of hours work, I found that F# is a great language for doing Web Scraping in. In particular the `|>` operator makes it a breeze to pipe the results of one function to be the input of the next. 
 
