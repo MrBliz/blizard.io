@@ -3,7 +3,7 @@ Published: 2020-02-16
 Tags: 
     - Function Monkey
     - Azure Functions
-    - Net
+    - .NET
     - Azure
 ---
 

@@ -2,7 +2,7 @@ Title: Paket Restore Failed with code 137
 Published: 2023-01-03
 Tags: 
     - F#
-    - NET
+    - .NET
     - Packet
     - SAFE Stack
 

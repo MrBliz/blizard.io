@@ -4,7 +4,7 @@ Tags:
     - Auth0
     - Function Monkey
     - Azure Functions
-    - Net
+    - .NET
     - Azure
 
 ---
