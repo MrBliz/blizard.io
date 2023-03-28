@@ -1,5 +1,6 @@
 Title: Web Scraping with F#
 Published: 2023-03-28
+Image: ../images/blog/web-scraping-with-fsharp/florian-olivo-4hbJ-eymZ1o-unsplash.jpg
 Tags: 
     - F#
     - Web Scraping
