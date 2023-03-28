@@ -1,11 +1,12 @@
 Title: About Me
+Image: 
 ---
-I'm Liam Blizard, a software developer available for remote only contract hire. I used to be a pub landlord, but then rediscovered a childhood love of tinkering with computers and retrained as a developer in my late 20's. I've being doing this stuff since 2008
+Hi, I'm Liam Blizard, a software developer available for remote only contract hire. I used to be a pub landlord, but then rediscovered a childhood love of tinkering with computers and retrained as a developer in my late 20's. I've being doing this stuff since 2008
 
 I mostly work with cloud technologies these days and having ample experience with Azure and AWS. If your project involves working with image processing and/or mapping, I'd love to talk!
 
 
-When not developing I like hiking, travelling, board games, snowboarding & photography. 
+When not developing I like hiking, traveling, board games, snowboarding & photography. 
 
 <style>
     #client-list
@@ -50,6 +51,7 @@ When not developing I like hiking, travelling, board games, snowboarding & photo
 ## Clients I have worked with
 
 <div id="client-list">
+    <div class="client"><a href="https://www.compositional-it.com/"><img src="images/site/CIT.png"/></a></div>
     <div class="client"><a href="https://www.valtech.com/"><img src="images/site/valtech.png"/></a></div>
     <div class="client"><a href="https://www.justeattakeaway.com"><img src="/images/site/JET.png"/></a></div>
     <div class="client"><a href="https://www.101ways.com/"><img src="images/site/101Ways.png"/></a></div>
