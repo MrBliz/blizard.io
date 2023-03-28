@@ -9,11 +9,11 @@ Tags:
 
 Inspired by this [post]("https://www.compositional-it.com/news-blog/web-scraping-with-f/") by Dragos at Compositional IT, I thought I'd write about my experience doing web scraping with F#.
 
-A few months ago my team Sheffield Utd,  beat the the top team in the League 5-2 at home. A user on a local football forum asked asked "When was our last 5-2 home win?". I couldn't remember us winning 5-2 at home since i'd started being a supporter. I could recall a couple of 5-2 away wins, but not at home. This is verifiable manually, but if the last time it happened was a long time ago, that's a lot of effort for little reward.
+A few months ago my team Sheffield Utd, beat Burnley the top team in the English Championship 5-2 at home. A user on a local football forum asked asked "When was our last 5-2 home win?". I couldn't remember us winning 5-2 at home since I'd started being a supporter. I could recall a couple of 5-2 away wins, but not at home. This is verifiable manually, but if the last time it happened was a long time ago, that's a lot of effort for little reward.
 
 But it is a task that could be automated by web scraping, providing there was a well formed set of results where the HTML was easy to parse. Looking around a few sites, the [11v11 results page]("https://www.11v11.com/teams/sheffield-united/tab/matches/") looked like a good option.
 
-At that point my only experience with F# was doing a few exercises on [Exercism]("https://exercism.org/tracks/fsharp") around a year before. It's a language that I was keen on working with, so with a free evening I decided to throw it at this problem.
+At that point my only experience with F# was doing a few exercises on [Exercism]("https://exercism.org/tracks/fsharp") around a year before. It's a language that I was keen on working with, so with a free evening, a glass of red wine, and a thirst for learning I decided to throw it at this problem.
 
 Let's look at the structure of the 11v11 results page
 
@@ -139,7 +139,6 @@ let extractResult(row : HtmlNode) =
 ```
 
 
-
 And lastly we need to put all those functions together. F# make it really easy to chain functions together using the forward pipe (`|>`) operator.
 
 ```
@@ -171,7 +170,7 @@ And that's it! Running the entire script through F# Interactive yields the follo
 04/10/1897 : Sheffield United v Blackburn Rovers : 5:2 : League Division One
 ```
 
-If i'd searched for this manually, I would have had to go through 44 years of results to find the last time Sheffield Utd had beaten a team 5-2 at home (prior to the result that prompted the question). I would have got bored and given up at the 20th year.
+Now, If I'd searched for this manually, I would have had to go through 44 years of results to find the last time Sheffield Utd had beaten a team 5-2 at home (prior to the result that prompted the question). I would have got bored and given up at the 20th year.
 
 Instead, with just a couple of hours work, I found that F# is a great language for doing Web Scraping in. In particular the `|>` operator makes it a breeze to pipe the results of one function to be the input of the next. 
 
