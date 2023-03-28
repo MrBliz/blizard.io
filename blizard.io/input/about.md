@@ -1,5 +1,5 @@
 Title: About Me
-Image: 
+Image: /images/site/goatfell.jpg
 ---
 Hi, I'm Liam Blizard, a software developer available for remote only contract hire. I used to be a pub landlord, but then rediscovered a childhood love of tinkering with computers and retrained as a developer in my late 20's. I've being doing this stuff since 2008
 
