@@ -10,9 +10,9 @@ Tags:
 
 Inspired by this [post]("https://www.compositional-it.com/news-blog/web-scraping-with-f/") by Dragos at Compositional IT, I thought I'd write about my experience doing web scraping with F#.
 
-A few months ago my team Sheffield Utd, beat Burnley the top team in the English Championship 5-2 at home. A user on a local football forum asked asked "When was our last 5-2 home win?". I couldn't remember us winning 5-2 at home since I'd started being a supporter. I could recall a couple of 5-2 away wins, but not at home. This is verifiable manually, but if the last time it happened was a long time ago, that's a lot of effort for little reward.
+A few months ago my team Sheffield Utd, beat Burnley the top team in the English Championship 5-2 at home. A user on a local football forum asked, "When was our last 5-2 home win?". I couldn't remember us winning 5-2 at home since I'd started being a supporter. I could recall a couple of 5-2 away wins, but not at home. This is verifiable manually, but if the last time it happened was a long time ago, that's a lot of effort scanning each seasons results for little reward.
 
-But it is a task that could be automated by web scraping, providing there was a well formed set of results where the HTML was easy to parse. Looking around a few sites, the [11v11 results page]("https://www.11v11.com/teams/sheffield-united/tab/matches/") looked like a good option.
+But it is a task that could be automated by web scraping, providing there was a well-formed set of results where the HTML was easy to parse. Looking around a few sites, the [11v11 results page]("https://www.11v11.com/teams/sheffield-united/tab/matches/") looked like a good option.
 
 At that point my only experience with F# was doing a few exercises on [Exercism]("https://exercism.org/tracks/fsharp") around a year before. It's a language that I was keen on working with, so with a free evening, a glass of red wine, and a thirst for learning I decided to throw it at this problem.
 
@@ -26,7 +26,7 @@ There's a list of seasons on the left we can iterate through. Clicking on each l
 
 One thing to note, there is no separate field to show which team is at home, and which team is away. The team listed second is the away team, so we'll have to parse the match string to get the home and away teams.
 
-Firstly, lets open the dependencies we'll need and declare a type for convenience that will hold the information we're interested in
+Firstly, let's open the dependencies we'll need and declare a type for convenience that will hold the information we're interested in
 
 ```
 #r "nuget: FSharp.Data, 5.0.2"
@@ -59,7 +59,7 @@ If we open the browser developer tools and inspect the list we can see that the 
 
 <br>
 
-We can extract each season link using the `CssSelect` method with the appropriate Css Selector, then for each `a` element extract the value from the `href` attribute.
+We can extract each season link using the `CssSelect` method with the appropriate CSS Selector, then for each `a` element extract the value from the `href` attribute.
 
 ```
 let seasonLinks : string list =
@@ -71,7 +71,7 @@ let seasonLinks : string list =
     |> List.map (fun n -> n.Attribute("href") |> (fun a -> a.Value().ToString())) 
 ```
 
-Next for each season page, we'll need a function to extract the rows in the results table. During testing i found that sometimes the table contains an empty row, so let's declare a function to filter those rows out.
+Next, for each season page, we'll need a function to extract the rows in the results table. During testing, I found that sometimes the table contains an empty row, so let's declare a function to filter those rows out.
 
 ```
 let season  (row : string) =
@@ -89,7 +89,7 @@ let filterRow (row :HtmlNode) =
 ```
 
 
-And then for each row in the table we'll need to extract the information and map it onto the result type. This is where we use the `teamName` variable we declared earlier.
+And then for each row in the table, we'll need to extract the information and map it onto the result type. This is where we use the `teamName` variable we declared earlier.
 
 ```
 
@@ -140,7 +140,7 @@ let extractResult(row : HtmlNode) =
 ```
 
 
-And lastly we need to put all those functions together, querying for the Home and Away Scores from the top of the Script file. F# makes it really easy to chain functions together using the forward pipe (`|>`) operator.
+And lastly, we need to put all those functions together, querying for the Home and Away Scores from the top of the Script file. F# makes it really easy to chain functions together using the forward pipe (`|>`) operator.
 
 ```
     let results =
@@ -173,7 +173,7 @@ And that's it! Running the entire script through F# Interactive yields the follo
 
 Now, If I'd searched for this manually, I would have had to go through 44 years of results to find the last time Sheffield Utd had beaten a team 5-2 at home (prior to the result that prompted the question). I would have got bored and given up at the 20th year.
 
-Instead, with just a couple of hours work, I found that F# is a great language for doing Web Scraping in. In particular the `|>` operator makes it a breeze to pipe the results of one function to be the input of the next. 
+Instead, with just a couple of hours work, I found that F# is a great language for doing Web Scraping in. In particular, the `|>` operator makes it a breeze to pipe the results of one function to be the input of the next. 
 
 One other feature of the language is the type inference. You'll notice for the functions, there is no return type declared on the function body, the compiler just works it out. This can be also true for function parameters, but there may be cases where you want to supply the type, to aid the IDE to display the correct information when using intellisense.
 
