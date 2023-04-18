@@ -8,13 +8,13 @@ Tags:
 
 ---
 
-Inspired by this [post]("https://www.compositional-it.com/news-blog/web-scraping-with-f/") by Dragos at Compositional IT, I thought I'd write about my experience doing web scraping with F#.
+Inspired by this [post](https://www.compositional-it.com/news-blog/web-scraping-with-f/) by Dragos at Compositional IT, I thought I'd write about my experience doing web scraping with F#.
 
 A few months ago my team Sheffield Utd, beat Burnley the top team in the English Championship 5-2 at home. A user on a local football forum asked, "When was our last 5-2 home win?". I couldn't remember us winning 5-2 at home since I'd started being a supporter. I could recall a couple of 5-2 away wins, but not at home. This is verifiable manually, but if the last time it happened was a long time ago, that's a lot of effort scanning each seasons results for little reward.
 
-But it is a task that could be automated by web scraping, providing there was a well-formed set of results where the HTML was easy to parse. Looking around a few sites, the [11v11 results page]("https://www.11v11.com/teams/sheffield-united/tab/matches/") looked like a good option.
+But it is a task that could be automated by web scraping, providing there was a well-formed set of results where the HTML was easy to parse. Looking around a few sites, the [11v11 results page](https://www.11v11.com/teams/sheffield-united/tab/matches/) looked like a good option.
 
-At that point my only experience with F# was doing a few exercises on [Exercism]("https://exercism.org/tracks/fsharp") around a year before. It's a language that I was keen on working with, so with a free evening, a glass of red wine, and a thirst for learning I decided to throw it at this problem.
+At that point my only experience with F# was doing a few exercises on [Exercism](https://exercism.org/tracks/fsharp) around a year before. It's a language that I was keen on working with, so with a free evening, a glass of red wine, and a thirst for learning I decided to throw it at this problem.
 
 Let's look at the structure of the 11v11 results page
 
@@ -177,4 +177,4 @@ Instead, with just a couple of hours work, I found that F# is a great language f
 
 One other feature of the language is the type inference. You'll notice for the functions, there is no return type declared on the function body, the compiler just works it out. This can be also true for function parameters, but there may be cases where you want to supply the type, to aid the IDE to display the correct information when using intellisense.
 
-You can find the full code for this post in [this gist]("https://gist.github.com/MrBliz/36bd1885e983236e5373743df57d8e99")
+You can find the full code for this post in [this gist](https://gist.github.com/MrBliz/36bd1885e983236e5373743df57d8e99)
