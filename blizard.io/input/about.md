@@ -21,9 +21,6 @@ When not developing I like hiking, traveling, board games, snowboarding & photog
     html{
     scroll-behavior: smooth;
     }
-    body{
-    background: #3ea0e2;
-    }
     ::selection{
     color: #fff;
     background: #3ea0e2;
@@ -38,7 +35,7 @@ When not developing I like hiking, traveling, board games, snowboarding & photog
     position: absolute;
     height: 100%;
     width: 4px;
-    background: #fff;
+    background: #f8f9fa;
     left: 50%;
     top: 20px;
     transform: translateX(-50%);
