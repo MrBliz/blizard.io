@@ -2,19 +2,15 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net7.0</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Statiq.Web" Version="1.0.0-beta.42" />
+      <PackageReference Include="Statiq.Web" Version="1.0.0-beta.54" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="Input" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Content Include="input\.DS_Store" />
     </ItemGroup>
 
 </Project>
