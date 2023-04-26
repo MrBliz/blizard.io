@@ -3,7 +3,7 @@ image: gitpod/workspace-dotnet
 # Commands that will run on workspace start
 tasks:
   - name: Setup, Install & Build
-    command: dotnet run ./blizard.io/blizard.io.csproj -- preview
+    command: dotnet run --project ./blizard.io/blizard.io.csproj -- preview
 
 # Ports to expose on workspace startup
 ports:
