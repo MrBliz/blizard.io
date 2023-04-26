@@ -1,0 +1,13 @@
+image: gitpod/workspace-dotnet
+
+# Commands that will run on workspace start
+tasks:
+  - name: Setup, Install & Build
+    command: dotnet run ./blizard.io/blizard.io.csproj -- preview
+
+# Ports to expose on workspace startup
+ports:
+  - port: 5080
+    onOpen: open-preview
+    name: Website
+    description: Website Preview
