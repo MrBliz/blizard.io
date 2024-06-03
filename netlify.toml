@@ -5,4 +5,8 @@
    X-Content-Type-Options = "nosniff"
    Referrer-Policy = "no-referrer-when-downgrade"
    Content-Security-Policy = "script-src-elem 'self' cdn.jsdelivr.net static.cloudflareinsights.com; style-src 'self'; style-src-elem 'self' cdn.jsdelivr.net fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src fonts.gstatic.com; report-uri https://6db14e0947ed16700a51886fa199d72f.report-uri.com/r/d/csp/wizard"
-   Permissions-Policy = "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+   Permissions-Policy = """accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), \
+                           document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), \
+                           fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), \
+                           midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(),
+                           screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"""
