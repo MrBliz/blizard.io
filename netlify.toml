@@ -3,5 +3,5 @@
   [headers.values]
    X-Frame-Options = "SAMEORIGIN"
    X-Content-Type-Options = "nosniff"
-   Content-Security-Policy-Report-Only ="default-src 'self';"
+   Content-Security-Policy-Report-Only ="default-src 'self' jsdelivr.net googleapis.com cloudflareinsights.com;"
    
