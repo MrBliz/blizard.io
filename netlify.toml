@@ -3,5 +3,5 @@
   [headers.values]
    X-Frame-Options = "SAMEORIGIN"
    X-Content-Type-Options = "nosniff"
-   Content-Security-Policy-Report-Only ="script-src-elem 'self' cdn.jsdelivr.net static.cloudflareinsights.com; style-src 'self'; style-src-elem 'self' cdn.jsdelivr.net fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src fonts.gstatic.com; report-uri https://6db14e0947ed16700a51886fa199d72f.report-uri.com/r/d/csp/wizard"
+   Content-Security-Policy = "script-src-elem 'self' cdn.jsdelivr.net static.cloudflareinsights.com; style-src 'self'; style-src-elem 'self' cdn.jsdelivr.net fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src fonts.gstatic.com; report-uri https://6db14e0947ed16700a51886fa199d72f.report-uri.com/r/d/csp/wizard"
    
