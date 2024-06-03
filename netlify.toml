@@ -3,5 +3,5 @@
   [headers.values]
    X-Frame-Options = "SAMEORIGIN"
    X-Content-Type-Options = "nosniff"
-   Content-Security-Policy-Report-Only ="default-src 'self' jsdelivr.net googleapis.com cloudflareinsights.com;"
+   Content-Security-Policy-Report-Only ="default-src 'self' jsdelivr.net googleapis.com cloudflareinsights.com; report-uri https://6db14e0947ed16700a51886fa199d72f.report-uri.com/r/d/csp/wizard
    
