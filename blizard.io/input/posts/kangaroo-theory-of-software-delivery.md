@@ -1,5 +1,5 @@
 Title: Kangaroo theory of Software Delivery
-Published: 2025-01-07
+Published: 2025-01-06
 Tags: 
     - Software Delivery
     - Kangaroos 
@@ -47,7 +47,3 @@ Sometimes a rule really is a kangaroo. Regulatory requirements in finance or hea
 Next time you encounter a rule blocking your path, ask yourself – is this really a kangaroo, or just a wallaby in disguise?
 
 [^1] : Back in 2016 the UK decided to do something dumb and [leave the EU](https://en.wikipedia.org/wiki/Brexit). Over the next few years the UK's Conservative government postured a lot about how they held all the cards in the negotiations, how many firm red lines they had, and how tough they would be in negotiating with the EU.  [Dmitry Grozoubinski](https://bsky.app/profile/explaintrade.com) came up with the Kangaroo theory of trade negotiation on his [ Explain Trade]() (https://www.explaintrade.com) blog (Original article has now sadly been removed). If i remember correctly, the theory was that when entering a negotiation each side needs to work out which items up for negotiation are kangaroos and which ones are wallabies. If you insist everything is a Kangaroo, then the negotiations will go nowhere. 
-
-
-
-
