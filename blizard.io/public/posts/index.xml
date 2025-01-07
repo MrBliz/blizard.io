@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kangaroo theory of Software Delivery</title>
+      <link>http://localhost:1313/posts/kangaroo-theory-of-software-delivery/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/kangaroo-theory-of-software-delivery/</guid>
+      
+      <description>&lt;h1 id=&#34;the-kangaroo-theory-of-software-delivery&#34;&gt;The Kangaroo Theory of Software Delivery&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re walking down a narrow alleyway. Blocking your exit is an Australian marsupial hopping the other way. Depending on the size of the animal we&amp;rsquo;ve got two options. If it&amp;rsquo;s a wallaby we can, with some cajoling,  reorient it so it&amp;rsquo;s pointing the way you want to go. If it&amp;rsquo;s a kangaroo, you&amp;rsquo;re stuck. It&amp;rsquo;s just too big to turn around. You can try and fight it, which probably won&amp;rsquo;t go well for you, or you can turn around and accept that you&amp;rsquo;ll have to bend to the kangaroo&amp;rsquo;s will.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
