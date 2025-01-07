@@ -1,8 +1,7 @@
-Title: Kangaroo theory of Software Delivery
+Title: Kangaroo Theory of Software Delivery
 Published: 2025-01-06
 Tags: 
     - Software Delivery
-    - Kangaroos 
 ---
 
 
