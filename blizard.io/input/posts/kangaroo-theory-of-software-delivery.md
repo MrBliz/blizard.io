@@ -1,5 +1,5 @@
 Title: Kangaroo Theory of Software Delivery
-Published: 2025-01-06
+Published: 2025-01-09
 Tags: 
     - Software Delivery
 ---
